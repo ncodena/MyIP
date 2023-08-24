@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { MapContainer, TileLayer, Marker } from 'react-leaflet';
-import axios from 'axios';
 
 const Map = ({data}) => {
   return (
