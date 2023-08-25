@@ -12,7 +12,7 @@ function App() {
   useEffect(() => {
     const fetchIPAddress = async () => {
       try {
-        const apiKey = process.env.VITE_REACT_APP_IPIFY_API_KEY;
+        const apiKey = process.env.REACT_APP_IPIFY_API_KEY;
         const response = await axios.get(`https://geo.ipify.org/api/v1?apiKey=${apiKey}`);
         const data = response.data;
         setIPAddress(data.ip);
