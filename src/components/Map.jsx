@@ -1,5 +1,5 @@
 import { MapContainer, TileLayer, Marker } from 'react-leaflet';
-
+import "leaflet/dist/leaflet.css";
 const Map = ({data}) => {
   return (
     <div className="mapContainer">
